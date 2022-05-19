@@ -8,15 +8,20 @@ let idade
 let lugar
 
 //atribuir os valores
-nome = "Nome: Vicente Augusto"
+nome = "Vicente Augusto"
 console.log(nome)
-email = "Email: vicente.izel@gmail.com"
+email = "vicente.izel @gmail.com"
 console.log(email)
-profissão = "Profissão = Autônomo"
+profissão = "Autônomo"
 console.log(profissão)
-idade = "Idade: 27"
+idade = 27
 console.log(idade)
-lugar = "o lugar que você sonha um dia conhecer: Liverpool"
+lugar = "Liverpool"
 console.log(lugar)
 
-//Fim das atribuições
+//Number or String
+console.log(nome, typeof(nome))
+console.log(email, typeof(email))
+console.log(profissão, typeof(profissão))
+console.log(idade, typeof(idade))
+console.log(lugar, typeof(lugar))
